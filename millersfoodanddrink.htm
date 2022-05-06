@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Title: Food and Drink Page
+Use: To provide information on what food and drinks we offer at the theater
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: April 24, 2022
+Tested: April 24, 2022
+-->
+
+<html class="foodanddrink" lang="en-US">
+<head>
+	<link rel="stylesheet" href="millersstylesheet.css">
+	<link rel="stylesheet" href="slicknav.css"> <!-- link to slicknav !-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="mmfavicon.ico"> <!-- code for MM favicon !-->
+	<!-- slicknav code below !-->
+    <script type= "text/javascript">
+	$(document).ready(function(){
+		$('#nav_menu').slicknav({
+			prependTo:"#mobile_menu",
+			label: "MENU"});
+		});
+        </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Food and Drink page for Millers Movies">
+	<meta name="keywords" content="Food, Drink, Snacks, ">
+	<title>Food and Drink</title>
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="millerindex.htm">Home</a></li>
+			<li><a href="millersmovies.htm">Movies</a></li>
+			<li><a href="millersfoodanddrink.htm">Food and Drink</a></li>
+			<li><a href="millersratings.htm">Ratings</a></li>
+			<li><a href="millerscontact.htm">Contact</a></li>
+		</ul>
+	</nav>
+	<h1 id="head">Food and Drink</h1>
+</head>
+<body id="fanddbody">
+	<img id="Snacks" src="Snacks.jpg" alt="Photo of Snacks">
+	<h1 id="Sna">Snacks</h1>
+	<p id="Snack">Crunchy, cheesy, salty and saucy. Dig in to the perfect starters to any meal. We’ve got plenty to share or enjoy on your own.</p><br><br>
+	<img id="Entrée" src="Entrées.jpg" alt="Photo of Entrée">
+	<h2 id="Ent">Entrées</h2>
+	<p id="Entrées">Every dish is prepared in house from the freshest ingredients. Featuring indulgent portions and tasty touches like house-made sauces and sides. Kids options are available, too.</p><br>
+	<img id="Sweets" src="Sweets.jpg" alt="Photo of Sweets">
+	<h3 id="Swee">Sweets</h3>
+	<p id="Sweet">Indulge in the most decadent milkshakes and desserts. Or stick to the classics like popcorn and candy.</p><br><br>
+	<img id="BandS" src="BandS.jpg" alt="Photo of Burgers">
+	<h4 id="Burg">Burgers</h4>
+	<p id="Burgs">Our burgers are piled high and packed with flavor. We offer a variety of sides so you can put together the perfect pairing.</p>
+	<img id="Salads" src="Salads.jpg" alt="Photo of Salads">
+	<h5 id="Sala">Salads</h5>
+	<p id="Sal">Loaded with fresh ingredients and interesting flavor profiles. You’ll find that no two are the same.</p>
+</body>
+	 
+</html>
+	
+

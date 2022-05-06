@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Title: Ratings Page
+Use: To provide information on movies ratings and what they mean
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: April 24, 2022
+Tested: April 24, 2022
+-->
+
+<html class="ratings" lang="en-US">
+<head>
+	<link rel="stylesheet" href="millersstylesheet.css">
+	<link rel="stylesheet" href="slicknav.css"> <!-- link to slicknav !-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="mmfavicon.ico"> <!-- code for MM favicon !-->
+	<!-- slicknav code below !-->
+    <script type= "text/javascript">
+	$(document).ready(function(){
+		$('#nav_menu').slicknav({
+			prependTo:"#mobile_menu",
+			label: "MENU"});
+	});
+    </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ratings page to Miller's Movies">
+	<meta name="keywords" content="Ratings, G, PG, PG-13, R, NC-17">
+    <title>Ratings</title>
+</head>
+<body id="rbody">
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="millerindex.htm">Home</a></li>
+			<li><a href="millersmovies.htm">Movies</a></li>
+			<li><a href="millersfoodanddrink.htm">Food and Drink</a></li>
+			<li><a href="millersratings.htm">Ratings</a></li>
+			<li><a href="millerscontact.htm">Contact</a></li>
+		</ul>
+	</nav>
+	<header id="header"><h1>Ratings</h1></header>
+	<img id="G" src="grating.png" alt="Photo of G Rating">
+	<p id="g">Nothing that would offend parents for viewing by children.</p><br><br>
+	<img id="PG" src="PG.jpg" alt="Photo of PG Rating">
+	<p id="pg">Parents urged to give “parental guidance.” May contain some material parents might not like for their young children.</p><br><br>
+	<img id="PG-13" src="PG-13.png" alt="Photo of PG-13 Rating">
+	<p id="pg13">Parents are urged to be cautious. Some material may be inappropriate for pre-teenagers.</p><br><br>
+	<img id="R" src="rrating.png" alt="Photo of R Rating">
+	<p id="r">Contains some adult material. Parents are urged to learn more about the film before taking their young children with them.</p><br><br>
+	<img id="NC-17" src="nc-17.jpg" alt="Photo of NC-17 Rating">
+	<p id="nc17">Clearly adult. Children are not admitted.</p>
+	
+</body>
+
+</html>

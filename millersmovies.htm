@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+Title: Movies Page
+Use: Providing information the movies we show at our theater
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: April 22, 2022
+Tested: April 26, 2022
+-->
+
+<html class="movies" lang="en-US">
+<head>
+	<link rel="stylesheet" href="millersstylesheet.css">
+	<link rel="stylesheet" href="slicknav.css"> <!-- link to slicknav !-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="mmfavicon.ico"> <!-- code for MM favicon !-->
+	<!-- slicknav code below !-->
+    <script type= "text/javascript">
+	$(document).ready(function(){
+		$('#nav_menu').slicknav({
+			prependTo:"#mobile_menu",
+			label: "MENU"});
+	});
+    </script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Movies page to Millers Movies">
+	<meta name="keywords" content="Movies, Genre, Run Time, Critic Rating, Film Rating, Contact, Membership">
+    <title>Movies</title>
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="millerindex.htm">Home</a></li>
+			<li><a href="millersmovies.htm">Movies</a></li>
+			<li><a href="millersfoodanddrink.htm">Food and Drink</a></li>
+			<li><a href="millersratings.htm">Ratings</a></li>
+			<li><a href="millerscontact.htm">Contact</a></li>
+		</ul>
+	</nav>
+	<h1 id="header1">Movies</h1>
+</head>
+<body class="work">
+<figure>
+	<table>
+		<thead>
+			<tr>
+				<th id="mainhe">Movie</th>
+				<th id="mainhe">Genre</th>
+				<th id="mainhe">Run Time</th> <!-- code for the main headers -->
+				<th id="mainhe">Critic Rating</th>
+				<th id="mainhe">Film Rating</th>
+			</tr>		
+		</thead>
+		<tbody> <!-- below is all of the code for the Movies, Genre, Run Time, Critic Rating, and Film Rating -->
+			<tr>
+				<td id="moviehead">Get Out</td>
+				<td id="sidedetail">Horror</td>
+				<td id="sidedetail">1h 44m</td>
+				<td id="sidedetail">98%</td>
+				<td id="sidedetail">R</td>
+			</tr>
+			<tr>
+				<td id="moviehead">Fight Club</td>
+				<td id="sidedetail">Thriller</td>
+				<td id="sidedetail">2h 19m</td>
+				<td id="sidedetail">79%</td>
+				<td id="sidedetail">R</td>
+			</tr>
+			<tr>
+				<td id="moviehead">The Godfather</td>
+				<td id="sidedetail">Crime</td>
+				<td id="sidedetail">2h 55m</td>
+				<td id="sidedetail">97%</td>
+				<td id="sidedetail">R</td>
+			</tr>
+			<tr>
+				<td id="moviehead">Moonlight</td>
+				<td id="sidedetail">Drama</td>
+				<td id="sidedetail">1h 51m</td>
+				<td id="sidedetail">98%</td>
+				<td id="sidedetail">R</td>
+			</tr>
+			<tr>
+				<td id="moviehead">Interstellar</td>
+				<td id="sidedetail">Sci-fi</td>
+				<td id="sidedetail">2h 49m</td>
+				<td id="sidedetail">72%</td>
+				<td id="sidedetail">PG-13</td>
+			</tr>
+			<tr>
+				<td id="moviehead">The Avengers</td>
+				<td id="sidedetail">Adventure</td>
+				<td id="sidedetail">2h 23m</td>
+				<td id="sidedetail">91%</td>
+				<td id="sidedetail">PG-13</td>
+			</tr>
+			<tr>
+				<td id="moviehead">The Social Network</td>
+				<td id="sidedetail">Drama</td>
+				<td id="sidedetail">2h</td>
+				<td id="sidedetail">96%</td>
+				<td id="sidedetail">PG-13</td>
+			</tr>
+			<tr>
+				<td id="moviehead">No Time to Die</td>
+				<td id="sidedetail">Action</td>
+				<td id="sidedetail">2h 43m</td>
+				<td id="sidedetail">83%</td>
+				<td id="sidedetail">PG-13</td>
+			</tr>
+			<tr>
+				<td id="moviehead">Home Alone</td>
+				<td id="sidedetail">Comedy</td>
+				<td id="sidedetail">1h 43m</td>
+				<td id="sidedetail">67%</td>
+				<td id="sidedetail">PG</td>
+			</tr>
+			<tr>
+				<td id="moviehead">The Sandlot</td>
+				<td id="sidedetail">Sport</td>
+				<td id="sidedetail">1h 41m</td>
+				<td id="sidedetail">64%</td>
+				<td id="sidedetail">PG</td>
+			</tr>
+			<tr>
+				<td id="moviehead">Back to the Future</td>
+				<td id="sidedetail">Comedy</td>
+				<td id="sidedetail">1h 56m</td>
+				<td id="sidedetail">96%</td>
+				<td id="sidedetail">PG</td>
+			</tr>
+			<tr>
+				<td id="moviehead">The Iron Giant</td>
+				<td id="sidedetail">Adventure</td>
+				<td id="sidedetail">1h 26m</td>
+				<td id="sidedetail">96%</td>
+				<td id="sidedetail">PG</td>
+			</tr>
+		</tbody>
+		<tfoot> <!-- code for the footer with contact information -->
+			<tr>
+				<th id="mainhe">Contact</th>
+				<th id="mainhe" colspan="4">Phone:325-568-923, Email:millersmovies@gmail.com </th>
+			</tr>
+		</tfoot>
+	</table>
+	<p id="words">Would you like to get an even better price on these movies and snacks? <a id="signup" href="millerscontact.htm">Sign up</a> for a Millers Membership and receive exclusive deals! </p>
+</figure>
+</body>
+</html>

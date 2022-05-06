@@ -1,0 +1,401 @@
+/*
+Title: millersstylesheet
+Use: stylesheet for Millers Movies website
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: April 21, 2022
+Tested: April 29, 2022
+*/
+/* code for the index page below */ 
+#title{
+	text-align:center;
+	font-size:3.75em; /* 60 / 16 */
+}
+html{
+	background-color:#b22222; /* could also be written as firebrick */
+	margin: 0 auto; 
+}
+p{
+	text-align:center;
+	font-size:1.75em;
+ }
+#body{
+	text-align:center;
+	width: 100%;
+	max-width:900px;
+	margin: 0 auto;}			
+ol{							
+	padding-left: 10px 1.0416%; /* 10 / 960 * 100 */	
+	font-size:1.75em;
+	list-style-type:none;
+} 
+#image{  
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-width:100%; /* This makes the image scalable */
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 40px;
+}
+figcaption{ /* code for the figure caption below */
+	font-size:3em; /* 30 / 16 */ 
+	font-weight:bold;
+	padding-top:.75em;
+	margin-bottom:1em;
+	border-bottom:5px solid black;
+}
+/* Below is the code for the Moives page */
+#header1{
+	text-align:center;
+	font-size:3.75em;  /* 60 / 16 */
+}
+.work{ /* code for body */ 
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+}
+.movies{ /* code for whole page */
+	background-color:#b22222; /* could also be written as firebrick */
+}
+table{ /* code for the main table */
+	table-layout:fixed;
+	width:100%;
+	max-width:900px;
+	border: 2px solid black; /* could also be written as #000000 */ 
+	border-collapse:collapse;
+	margin:10px auto;
+}
+th, td{
+	word-wrap:break-word; /* keeps words from overlaping into other columns */
+	border:2px solid black; /* could also be written as #000000 */
+	padding: .2em .7em;
+	text-align:center;
+	font-size:1.5em;
+}
+thead, tfoot{
+	background-color:white; /* could also be written as #FFFFFF*/ 
+	font-weight:bold;
+}
+#mainhe{
+	font-size:2em 
+}
+#signup{
+	color:white;
+}
+#words{
+	font-size:2em;
+}
+/* Below is the code for the Food and Drink page */ 
+#head{
+	text-align:center;
+	font-size:3.75em; /* 60 / 16 */
+} 
+#fanddbody{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.foodanddrink{
+	text-align:center;
+	background-color:#b22222; /* could also be written as firebrick */
+}
+#Sna, #Ent, #Swee, #Burg, #Sala{
+	font-size:2.5em;
+}
+#Entrée{
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-height:240px;  /* makes the image scalable */
+	max-width:65%; /* This makes the image scalable */
+	float:right;
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 40px;
+}
+#Entrées{
+	text-align:center;
+	font-size:1.25em;
+}
+#Snacks{
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-height:240px;  /* makes the image scalable */
+	max-width:65%; /* This makes the image scalable */
+	float:left;
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 40px;
+}
+#Snack{
+	text-align:center;
+	font-size:1.25em;
+}
+#Sweets{
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-height:240px;  /* makes the image scalable */
+	max-width:65%; /* This makes the image scalable */
+	float:left;
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 40px;
+}
+#Sweet{
+	text-align:center;
+	font-size:1.25em;
+}
+#BandS{
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-height:240px;  /* makes the image scalable */
+	max-width:65%; /* This makes the image scalable */
+	float:right;
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 40px;
+}
+#Burgs{
+	text-align:center;
+	font-size:1.25em;	
+}
+#Salads{
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-height:240px;  /* makes the image scalable */
+	max-width:65%; /* This makes the image scalable */
+	float:left;
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 40px;
+}
+#Sal{
+	text-align:center;
+	font-size:1.25em;	
+}
+/* below is my code for ratings page */ 
+#header{
+	text-align:center;
+	font-size:1.875em; } /* 30 / 16 */
+.ratings{
+	background-color:#b22222; /* could also be written as firebrick */
+}
+#rbody{
+	text-align:center;
+	width: 100%;
+	max-width:900px;
+	margin: 0 auto;
+}
+#G, #PG, #PG-13, #R, #NC-17{
+	width:900px; /* controls size of border or image container */ 
+	height:100%; /* makes the image scalable */
+	max-height:200px;  /* makes the image scalable */
+	max-width:50%; /* This makes the image scalable */
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid black; 
+	border-radius: 10px;
+}
+#G, #PG-13, #NC-17{
+	float:left;
+}
+#PG, #R{
+	float:right;
+}
+#g, #pg, #pg13, #r, #nc17{
+	font-size:1.75em;
+}
+#g{
+	padding-top:2.3em;
+}
+#pg13{
+	padding-top:1.4em;
+}
+#nc17{
+	padding-top:1.75em;
+}
+/* Below is the code for the Contact page */
+#he{
+	text-align:center;
+	font-size:3.75em;  /* 60 / 16 */
+	font-weight:bold;
+}
+.main{ /* code for body */ 
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding:1.5em;
+}
+.Contact{ /* code for whole page */ 
+	background-color:#b22222; /* could also be written as firebrick */
+}
+#contact_form{ /* code for the contact form */ 
+	text-align:center;
+	padding:1.5em;
+	max-width:845px;
+	font:90% arial, helvetica, sans-serif;
+	margin:20px;
+}
+#message{ /* code for the message space */ 
+	height:12em;
+	width:100%;
+	max-width:56em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+label{ 
+	width:8em;
+	font-weight:bold;
+	font-size:1.25em;
+}
+#inp{
+	text-align:left;
+	font-weight:bold;
+}
+input{
+	margin-left:1em;
+	margin-bottom:.5em;
+	width:11em;
+}
+#inpu{
+	margin-left:1em;
+	margin-bottom:.5em;
+	width:3em;
+}
+legend{ /* code for the fieldset legends or labels */ 
+	font-weight:bold;
+	font-size:1.5em;
+}
+input:focus{ /* makes focus on box you are filling out or have selected */ 
+	border:2px solid black;
+}
+fieldset{
+	margin-top:1em;
+	margin-bottom:1em;
+	padding-top:.5em;
+}
+br{
+	clear:both;
+}
+#submit{
+	font-size:1.25em;
+}
+.field{
+	float:left;
+	width:46%;
+	display:inline-block;
+}
+.field2{
+	float:right;
+	width:46%;
+	display:inline-block;
+	padding-top:3.57em;
+	padding-bottom:3.5em;
+}
+.field3{/* the fieldsets will float next to each other while in those specific screen dimensions below */ 
+	float:right;
+	width:46%;
+	display:inline-block;
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+}
+.field4{
+	float:left;
+	width:46%;
+	display:inline-block;	
+	padding-top:2.85em;
+	padding-bottom:3em;
+}
+.field5{
+	max-width:787px;
+	width:100%;
+}
+
+/* Below is my code for my navigation menu */ 
+#nav_menu ul { 
+	list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+	font-size:1.25em;
+	text-align: center; 
+	display: block;
+	width:160px;
+	padding: 1 em 0; /* padding above and below a elements */
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid white; }
+#mobile_menu { 
+	display: none;
+}
+
+/* below is my code for media queries */ 
+@media all and (max-width: 850px){ /* code for slicknav menu to display */
+	#nav_menu{
+		display:none; /*doesn't display the regular nav menu */
+	}
+	#mobile_menu { 	/* displays the slicknav menu */
+		float:right;
+		display: inline-block;
+		background-color: solid black;
+	}
+@media only screen and (max-width: 620px) { /* all pages except contact page to be responsive for smaller screens */
+/* below is code for index */
+	figcaption{
+		font-size:3.25em; }
+	p{
+		font-size:2em; }
+	ol{
+		font-size:2em;
+	}
+/* below is code for movies page */
+	th, td{
+		display:block;
+		font-size:1.75em;
+	}
+	thead{ /* removes main services header */
+		display:none;
+	}
+	#moviehead{ /* makes the list of services the header */
+		font-size:2em;
+		background-color:white;
+		font-weight:bold;
+	}
+	#sidedetail{
+		text-align:right;
+	}
+/* below is code for food and drink page */
+	#Snacks, #Entrée, #Sweets, #BandS, #Salads {
+		float:none;
+		max-width:90%;
+	}
+	#Entrées, #Snack, #Sweet, #Burgs, #Sal{
+		font-size:2em;
+	}
+	#Sna, #Ent, #Swee, #Burg, #Sala{
+		font-size:3.5em;
+	}
+/* below is code for ratings page */
+	#G, #PG, #PG-13, #R, #NC-17{
+		max-height:230px;  /* makes the image scalable */
+		max-width:80%; /* This makes the image bigger for smallers screen and makes it scalable*/
+		float:none; /*centers the image */
+	}
+	#g, #pg, #pg13, #r, #nc17{
+	font-size:2.5em;
+	padding:0;
+	}
+}
+@media only screen and (max-width: 825px){ /* code for contact page to be responsive for smaller screens */
+	input{
+		font-size:1.2em;
+	}
+	label{
+		font-size:1.5em;
+	}
+	legend{
+		font-size:2em;
+	}
+	.field, .field2, .field3, .field4, .field5{
+		float:none;
+		width:90%;
+	}
+}
